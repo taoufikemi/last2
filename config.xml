@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.tbenapp.avantdrn"
+    version   = "1.0.0">
+
+<name>avant dernière a lm3alem</name>
+
+<description>
+A home buying guide application
+</description>
+
+<author href="" email="taoufikemi@gmail.com">
+BENHAMMOU TAOUFIK
+</author>
+
+<preference name="phonegap-version" value="cli-5.2.0" />
+<preference name="permissions" value="none"/>
+<preference name="android-build-tool" value="gradle" />
+<preference name="SplashScreen" value="splash" />
+<preference name="show-splash-screen-spinner" value="true" />
+<preference name="auto-hide-splash-screen" value="false" />
+<preference name="SplashScreenDelay" value="5000" /> 
+<gap:plugin name="cordova-plugin-admobpro" source="npm" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+
+<icon src="res/drawable/icon.png" />
+<icon src="res/drawable-ldpi-v4/icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+<icon src="res/drawable-mdpi-v4/icon.png"   gap:platform="android"    gap:qualifier="mdpi" />
+<icon src="res/drawable-hdpi-v4/icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
+<icon src="res/drawable-xhdpi-v4/icon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+<icon src="res/drawable-xxhdpi-v4/icon.png"  gap:platform="android"    gap:qualifier="xxhdpi" />
+
+<gap:splash src="res/drawable/splash.png" />
+
+</widget>
